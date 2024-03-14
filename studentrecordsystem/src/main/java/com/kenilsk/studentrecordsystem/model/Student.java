@@ -37,11 +37,9 @@ public class Student {
         return address;
     }
 
-    public void setAdress(String address) {
+    public void setAddress(String address) {
         this.address = address;
     }
-
-
 }
 
 

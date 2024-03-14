@@ -1,5 +1,7 @@
 package com.kenilsk.studentrecordsystem.service;
 
-public interface StudentService {
+import com.kenilsk.studentrecordsystem.model.Student;
 
+public interface StudentService {
+    public Student saveStudent(Student student);
 }
